@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeWidth="2dp"
+                app:boxCornerRadiusBottomEnd="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusTopStart="15dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                app:startIconDrawable="@drawable/steps"
+                app:startIconCheckable="true">
+
+                <EditText
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/custom_font"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/enter_norm_of_steps"
+                        android:textSize="20sp"
+                        android:inputType="numberDecimal"
+                        android:id="@+id/et_norm_steps"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</LinearLayout>

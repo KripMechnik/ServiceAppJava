@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".ui.to_do_list.ToDoListFragment">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_help"
+            android:src="@drawable/arrow_help"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="bottom|end" android:rotation="68"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center"
+            android:id="@+id/card_tip"
+            android:layout_height="wrap_content"
+            app:strokeWidth="0dp"
+            android:backgroundTint="?attr/colorTertiaryContainer">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tip_icon"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tip_to_do_list"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:textColor="?attr/colorOnTertiaryContainer"
+                    android:fontFamily="@font/custom_font"
+            />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/to_do_list_recycler"
+            android:layout_gravity="top"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <ImageButton
+            android:src="@drawable/ic_add"
+            android:background="@drawable/background_action_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/btn_add_item"
+            android:layout_gravity="bottom|end"/>
+
+</FrameLayout>

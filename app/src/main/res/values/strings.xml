@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Инструменты</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Инструменты</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_clear">Удалить все</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_reminder">Напоминалка</string>
+    <string name="menu_stopwatch">Секундомер</string>
+    <string name="menu_to_do_list">Список дел</string>
+    <string name="reset_steps">Обнулить шаги</string>
+    <string name="change_max">Изменить норму</string>
+    <string name="enter_norm_of_steps">Введите норму шагов</string>
+    <string name="title">Название</string>
+    <string name="description">Описание</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_check_all">Все сделано</string>
+    <string name="add_reminder">Добавить</string>
+    <string name="enter_action">Введите действие</string>
+    <string name="cancel_reminder">Отменить</string>
+    <string name="aurrent_aim">Текущая цель:</string>
+    <string name="tip">Для добавления действия введите текст и выберите время</string>
+    <string name="tip_to_do_list">Добавьте задачу, чтобы она отобразилась на экране</string>
+    <string name="empty_list">Список задач пуст</string>
+    <string name="delete">Удалить</string>
+</resources>
